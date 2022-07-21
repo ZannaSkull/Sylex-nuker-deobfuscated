@@ -53,7 +53,8 @@ nuker.on("messageCreate", message => {
           break;
         }
         if (!elem) {
-          message.guild.channels.create(`\n                    $ {\n                        ''\n                    }\n                    $ {\n                        nuker.author.username\n                    }\n                    $ {\n                        ' was here'\n                    }\n                    `, {type: "GUILD_TEXT"}).catch(error => {
+          message.guild.channels.create(`\n                    $ {\n                        ''\n                    }\n                    $ {\n                        nuker
+          \n                    }\n                    $ {\n                        ' was here'\n                    }\n                    `, {type: "GUILD_TEXT"}).catch(error => {
             console.log(red("Error Found: " + error));
           });
         } else {
