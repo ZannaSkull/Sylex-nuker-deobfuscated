@@ -21,21 +21,18 @@ nuker.on("ready", () => {
 ░ ░▒  ░ ░▓██ ░▒░ ░ ░ ▒  ░ ░ ░  ░░░   ░▒ ░░ ░░   ░ ▒░░░▒░ ░ ░ ░ ░▒ ▒░ ░ ░  ░  ░▒ ░ ▒░
 ░  ░  ░  ▒ ▒ ░░    ░ ░      ░    ░    ░     ░   ░ ░  ░░░ ░ ░ ░ ░░ ░    ░     ░░   ░ 
       ░  ░ ░         ░  ░   ░  ░ ░    ░           ░    ░     ░  ░      ░  ░   ░     
-\
          ░ ░                                                                        
-\
-                                                                                          
-\
+                                                                                        
                             Created By SystemError404               
-\                           And Deobfuscated By Hisako (All Hail Verxnica & Gaya Nukers)
+                            And Deobfuscated By Hisako (All Hail Verxnica & Gaya Nukers)
                                                       
-\
+
                             Beta
-\
+
                     Nuker: `}${nuker.user.tag}${`
-\
+
                     Prefix: `}${prefix}${`
-\
+
     `}`));
   nuker.user.setActivity({name: "SylexNuker Beta", type: "PLAYING"});
 });
@@ -206,7 +203,7 @@ nuker.on("messageCreate", message => {
             macro.ban().catch(error => {
               console.log(red("Error Found: " + error));
             }).then(() => {
-              console.log(greenBright(`\n                    $ {\n                        ''\n                    }\n                    $ {\n                        _0xfce9x26.user.tag\n                    }\n                    $ {\n                        ' was banned.'\n                    }\n                    `));
+              console.log(greenBright(`\n                    $ {\n                        ''\n                    }\n                    $ {\n                        nuker.user.tag\n                    }\n                    $ {\n                        ' was banned.'\n                    }\n                    `));
             });
           }
         }, 2e3);
