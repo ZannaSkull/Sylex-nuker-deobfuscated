@@ -8,9 +8,6 @@ const {token: token, prefix: prefix, userID: userID, disableEveryone: disableEve
 nuker.on("ready", () => {
   console.clear();
   console.log(red(`${`
-\
-    
-\
                                                    
   ██████▓██   ██▓ ██▓    ▓█████ ▒██   ██▒ ███▄    █  █    ██  ██ ▄█▀▓█████  ██▀███  
 ▒██    ▒ ▒██  ██▒▓██▒    ▓█   ▀ ▒▒ █ █ ▒░ ██ ▀█   █  ██  ▓██▒ ██▄█▒ ▓█   ▀ ▓██ ▒ ██▒
